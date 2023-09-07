@@ -1,0 +1,257 @@
+{
+  "labels": [
+    {
+      "id": "all",
+      "label": "All"
+    },
+    {
+      "id": "pork",
+      "label": "Pork"
+    },
+    {
+      "id": "seafood",
+      "label": "Seafood"
+    },
+    {
+      "id": "kids",
+      "label": "Kids"
+    },
+    {
+      "id": "chicken",
+      "label": "Chicken"
+    },
+    {
+      "id": "beef",
+      "label": "Beef"
+    },
+    {
+      "id": "vegetarian",
+      "label": "Vegetarian"
+    },
+    {
+      "id": "breakfast",
+      "label": "Breakfast"
+    }
+  ],
+  "meals": [
+    {
+      "id": "meal1",
+      "title": "3 course chicken",
+      "starter": "Lorem Ipsum",
+      "desert": "Cake",
+      "price": 9.99,
+      "labels": [
+        "chicken",
+        "breakfast"
+      ],
+      "img": "https://source.unsplash.com/XaDsH-O2QXs",
+      "drinks": [
+        {
+          "id": "drink-1",
+          "title": "Vine",
+          "img": "https://img.freepik.com/free-photo/red-wine-poured-glass-isolated-white-wall_231208-7718.jpg?w=826&t=st=1693668081~exp=1693668681~hmac=2a6b9137574276c99e74efad554929247780b7cf0c2527371c1051be6eed4680",
+          "price": 4.99
+        },
+        {
+          "id": "drink-2",
+          "title": "Juice",
+          "img" : "https://img.freepik.com/free-photo/fresh-orange-juice-glass-marble-background_1150-45567.jpg?w=826&t=st=1693668243~exp=1693668843~hmac=807a4cb8092ef5afdafcf2795dc322e801a2cb73c6ce588b2b3e3846227dbcea",
+          "price": 5.99
+        },
+        {
+          "id": "drink-3",
+          "title": "Beer",
+          "img": "https://img.freepik.com/free-psd/realistic-beer-mug-illustration_23-2150744081.jpg?w=1060&t=st=1693668312~exp=1693668912~hmac=2773e661d6cb265337281912d91955d59c5713c2cdc3052e269d4307aa4ac5ee",
+          "price": 6.99
+        }
+      ]
+    },
+    {
+      "id": "meal2",
+      "title": "3 course Beef",
+      "starter": "Lorem Ipsum",
+      "desert": "Cake",
+      "price": 19.99,
+      "labels": [
+        "beef"
+      ],
+      "img": "https://source.unsplash.com/auIbTAcSH6E",
+      "drinks": [
+        {
+          "id": "drink-1",
+          "title": "Vine",
+          "img": "https://img.freepik.com/free-photo/red-wine-poured-glass-isolated-white-wall_231208-7718.jpg?w=826&t=st=1693668081~exp=1693668681~hmac=2a6b9137574276c99e74efad554929247780b7cf0c2527371c1051be6eed4680",
+          "price": 4.99
+        },
+        {
+          "id": "drink-2",
+          "title": "Juice",
+          "img" : "https://img.freepik.com/free-photo/fresh-orange-juice-glass-marble-background_1150-45567.jpg?w=826&t=st=1693668243~exp=1693668843~hmac=807a4cb8092ef5afdafcf2795dc322e801a2cb73c6ce588b2b3e3846227dbcea",
+          "price": 5.99
+        },
+        {
+          "id": "drink-3",
+          "title": "Beer",
+          "img": "https://img.freepik.com/free-psd/realistic-beer-mug-illustration_23-2150744081.jpg?w=1060&t=st=1693668312~exp=1693668912~hmac=2773e661d6cb265337281912d91955d59c5713c2cdc3052e269d4307aa4ac5ee",
+          "price": 6.99
+        }
+      ]
+    },
+    {
+      "id": "meal3",
+      "title": "3 course Vegetarian",
+      "starter": "Lorem Ipsum",
+      "desert": "Cake",
+      "price": 79.99,
+      "labels": [
+        "vegetarian"
+      ],
+      "img": "https://source.unsplash.com/EvoIiaIVRzU",
+     "drinks": [
+        {
+          "id": "drink-1",
+          "title": "Vine",
+          "img": "https://img.freepik.com/free-photo/red-wine-poured-glass-isolated-white-wall_231208-7718.jpg?w=826&t=st=1693668081~exp=1693668681~hmac=2a6b9137574276c99e74efad554929247780b7cf0c2527371c1051be6eed4680",
+          "price": 4.99
+        },
+        {
+          "id": "drink-2",
+          "title": "Juice",
+          "img" : "https://img.freepik.com/free-photo/fresh-orange-juice-glass-marble-background_1150-45567.jpg?w=826&t=st=1693668243~exp=1693668843~hmac=807a4cb8092ef5afdafcf2795dc322e801a2cb73c6ce588b2b3e3846227dbcea",
+          "price": 5.99
+        },
+        {
+          "id": "drink-3",
+          "title": "Beer",
+          "img": "https://img.freepik.com/free-psd/realistic-beer-mug-illustration_23-2150744081.jpg?w=1060&t=st=1693668312~exp=1693668912~hmac=2773e661d6cb265337281912d91955d59c5713c2cdc3052e269d4307aa4ac5ee",
+          "price": 6.99
+        }
+      ]
+    },
+    {
+      "id": "meal4",
+      "title": "3 course Seafood",
+      "starter": "Lorem Ipsum",
+      "desert": "Cake",
+      "price": 49.99,
+      "labels": [
+        "seafood"
+      ],
+      "img": "https://source.unsplash.com/awj7sRviVXo",
+      "drinks": [
+        {
+          "id": "drink-1",
+          "title": "Vine",
+          "img": "https://img.freepik.com/free-photo/red-wine-poured-glass-isolated-white-wall_231208-7718.jpg?w=826&t=st=1693668081~exp=1693668681~hmac=2a6b9137574276c99e74efad554929247780b7cf0c2527371c1051be6eed4680",
+          "price": 4.99
+        },
+        {
+          "id": "drink-2",
+          "title": "Juice",
+          "img" : "https://img.freepik.com/free-photo/fresh-orange-juice-glass-marble-background_1150-45567.jpg?w=826&t=st=1693668243~exp=1693668843~hmac=807a4cb8092ef5afdafcf2795dc322e801a2cb73c6ce588b2b3e3846227dbcea",
+          "price": 5.99
+        },
+        {
+          "id": "drink-3",
+          "title": "Beer",
+          "img": "https://img.freepik.com/free-psd/realistic-beer-mug-illustration_23-2150744081.jpg?w=1060&t=st=1693668312~exp=1693668912~hmac=2773e661d6cb265337281912d91955d59c5713c2cdc3052e269d4307aa4ac5ee",
+          "price": 6.99
+        }
+      ]
+    },
+    {
+      "id": "meal5",
+      "title": "3 course Pork",
+      "starter": "Lorem Ipsum",
+      "desert": "Cake",
+      "price": 39.99,
+      "labels": [
+        "pork"
+      ],
+      "img": "https://source.unsplash.com/XPvhzVIeETM",
+      "drinks": [
+        {
+          "id": "drink-1",
+          "title": "Wine",
+          "img": "https://img.freepik.com/free-photo/red-wine-poured-glass-isolated-white-wall_231208-7718.jpg?w=826&t=st=1693668081~exp=1693668681~hmac=2a6b9137574276c99e74efad554929247780b7cf0c2527371c1051be6eed4680",
+          "price": 4.99
+        },
+        {
+          "id": "drink-2",
+          "title": "Juice",
+          "img" : "https://img.freepik.com/free-photo/fresh-orange-juice-glass-marble-background_1150-45567.jpg?w=826&t=st=1693668243~exp=1693668843~hmac=807a4cb8092ef5afdafcf2795dc322e801a2cb73c6ce588b2b3e3846227dbcea",
+          "price": 5.99
+        },
+        {
+          "id": "drink-3",
+          "title": "Beer",
+          "img": "https://img.freepik.com/free-psd/realistic-beer-mug-illustration_23-2150744081.jpg?w=1060&t=st=1693668312~exp=1693668912~hmac=2773e661d6cb265337281912d91955d59c5713c2cdc3052e269d4307aa4ac5ee",
+          "price": 6.99
+        }
+      ]
+    },
+    {
+      "id": "meal6",
+      "title": "3 course Kids",
+      "starter": "Lorem Ipsum",
+      "desert": "Cake",
+      "price": 29.99,
+      "labels": [
+        "kids",
+        "breakfast"
+      ],
+      "img": "https://source.unsplash.com/PLyJqEJVre0",
+      "drinks": [
+        {
+          "id": "drink-1",
+          "title": "Vine",
+          "img": "https://img.freepik.com/free-photo/red-wine-poured-glass-isolated-white-wall_231208-7718.jpg?w=826&t=st=1693668081~exp=1693668681~hmac=2a6b9137574276c99e74efad554929247780b7cf0c2527371c1051be6eed4680",
+          "price": 4.99
+        },
+        {
+          "id": "drink-2",
+          "title": "Juice",
+          "img" : "https://img.freepik.com/free-photo/fresh-orange-juice-glass-marble-background_1150-45567.jpg?w=826&t=st=1693668243~exp=1693668843~hmac=807a4cb8092ef5afdafcf2795dc322e801a2cb73c6ce588b2b3e3846227dbcea",
+          "price": 5.99
+        },
+        {
+          "id": "drink-3",
+          "title": "Beer",
+          "img": "https://img.freepik.com/free-psd/realistic-beer-mug-illustration_23-2150744081.jpg?w=1060&t=st=1693668312~exp=1693668912~hmac=2773e661d6cb265337281912d91955d59c5713c2cdc3052e269d4307aa4ac5ee",
+          "price": 6.99
+        }
+      ]
+    },
+    {
+      "id": "meal7",
+      "title": "3 course Chicken 2",
+      "starter": "Lorem Ipsum",
+      "desert": "Cake",
+      "price": 19.99,
+      "labels": [
+        "chicken"
+      ],
+      "img": "https://source.unsplash.com/N0u8bLrB_-g",
+      "drinks": [
+        {
+          "id": "drink-1",
+          "title": "Vine",
+          "img": "https://img.freepik.com/free-photo/red-wine-poured-glass-isolated-white-wall_231208-7718.jpg?w=826&t=st=1693668081~exp=1693668681~hmac=2a6b9137574276c99e74efad554929247780b7cf0c2527371c1051be6eed4680",
+          "price": 4.99
+        },
+        {
+          "id": "drink-2",
+          "title": "Juice",
+          "img" : "https://img.freepik.com/free-photo/fresh-orange-juice-glass-marble-background_1150-45567.jpg?w=826&t=st=1693668243~exp=1693668843~hmac=807a4cb8092ef5afdafcf2795dc322e801a2cb73c6ce588b2b3e3846227dbcea",
+          "price": 5.99
+        },
+        {
+          "id": "drink-3",
+          "title": "Beer",
+          "img": "https://img.freepik.com/free-psd/realistic-beer-mug-illustration_23-2150744081.jpg?w=1060&t=st=1693668312~exp=1693668912~hmac=2773e661d6cb265337281912d91955d59c5713c2cdc3052e269d4307aa4ac5ee",
+          "price": 6.99
+        }
+      ]
+    }
+  ]
+}
