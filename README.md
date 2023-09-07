@@ -2,73 +2,20 @@
 
 Click here to check the hosted website - [Hosted Link](https://allo-health-frontend-ishalohia.vercel.app/)
 
-# Getting Started with Create React App
+## Features Asked
+### Show a list of meals with basic meal information, an image and the option to select a drink with a meal (drink selection is optional).
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The basic meal information was provided in Dataset.json file, First i have imported whole meal info as mealData in MealPage.js. Then pass {mealData.meals} value in the mealList prop to MenuCard for display a list of meal items.
+In MenuCard.js , this component receives two props: selectedLabel (to filter the meals based on a label) and mealList (to display the list of meals).
+Then I created one variable to filter the meals based on the tagList label using the selectedLabel, If "all" is selected, all meals are displayed; otherwise, only meals with the selected label are shown.
+To enhance the user experience and manage the list of meals, I implement "Pagination" which means that not all meals are presented on a single page. Instead, they are divided into pages, with a specified number of meals (configured with the "itemsPerPage" variable) displayed per page. This will ensure user-friendly and manageable interface. 
+Then I map throw "mealsToShow" which contains the meals to be displayed on the current page, this mapping operation essentially renders each meal using the "MenuItem.js" component.
+The component is displaying a list of meals with basic meal information and also responsible for rendering the meal details, including the meal's name, description, and image with associated drinks.
+In MenuItem.js, this component fulfills the requirement of showing a list of meals with basic information and the option to choose a drink if desired. If they choose to do so, the selected drink is displayed, and they can toggle their drink selection. This menuItem component also receiving many props to fulfill desired requirements like, 
 
-## Available Scripts
+A- "meal" object as a prop, which contains information about the meal, such as its title, starter, dessert, and image.
+B- "selectedDrinks" prop that associates drinks with specific meals based on their IDs.
+C- The "handleSelectDrink" function which takes the meal's ID, the drink's title, and its price as arguments and allows users to choose a drink to accompany their meal bu just clicking.
+D- "handleSelectMeal" function which records the selected meal by allowing users to choose that meal.
 
-In the project directory, you can run:
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
