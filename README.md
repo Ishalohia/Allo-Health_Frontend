@@ -1,6 +1,6 @@
 # Live Project Link 
 
-Click here to check the hosted website - [Hosted Link](allo-health-frontend-ishalohia.vercel.app)
+Click here to check the hosted website - [Hosted Link](https://allo-health-frontend-ishalohia.vercel.app/)
 
 # Getting Started with Create React App
 
